@@ -1,0 +1,76 @@
+@font-face{
+    font-family:"Ubuntu";
+    src:url(public/fonts/Ubuntu/Ubuntu-Medium.ttf);
+}
+
+@font-face{
+    font-family:"Montserrat";
+    src:url(public/fonts/Montserrat/Montserrat-Regular.ttf);
+}
+@font-face{
+    font-family:"Montserrat-Black";
+    src:url(public/fonts/Montserrat/Montserrat-Black.ttf);
+}
+@font-face{
+    font-family:"Montserrat-Bold";
+    src:url(public/fonts/Montserrat/Montserrat-SemiBold.ttf);
+}
+@font-face{
+    font-family:"Itallic";
+    src:url(public/fonts/newItalic.woff2);
+}
+
+#titre{
+    background-color: black;
+}
+
+.navbar{
+    padding-bottom: 10%;
+}
+
+h1{
+    color: white;
+    font-family: Montserrat-Black;
+}
+
+h3{
+    font-family: Montserrat-Bold;
+}
+
+.img-studio54{
+    width: 60%;
+    transform: rotate(-25deg);
+}
+
+.container-fluid{
+    padding: 5% 10%;
+}
+
+#features{
+    padding: 10% 5%;
+    background-color: white;
+    position: relative;
+    z-index: 1;
+}
+
+#testimonials{
+    background-color: black;
+    color: white;
+    font-family: Itallic;
+    text-align: center;
+
+}
+
+.img{
+    width: 10%;
+    margin: 20px;
+}
+
+.carousel-item{
+    padding: 7% 14%;
+}
+
+#end{
+    text-align: center;
+    padding: 5px;
+}
